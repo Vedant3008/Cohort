@@ -1,0 +1,80 @@
+body{
+    background-color: #0e0e0e;
+    font-family: sans-serif;
+    color: rgb(223, 241, 247) ;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+.navbar .left-section{
+    display: flex;
+    align-items: center; 
+}
+.navbar h1{
+    font-size: 20px;
+    color: #c3d0e5;
+    margin: 0;
+    cursor: pointer;
+}
+
+.navbar img{
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navbar .navlinks{
+    display: flex;
+    margin-left: 20px;
+}
+
+.navbar .navlinks a{
+    text-decoration: none;
+    color: rgb(155, 163, 180);
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.navbar .navlinks a:hover{
+    color: whitesmoke;
+}
+
+.navbar .right-section{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .search-bar{
+    padding: 5px;
+    margin-right: 20px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    background-color:transparent;
+    color:#c3d0e5;
+}
+
+.navbar .search-bar ::placeholder{
+    color: #aaaaaa;
+}
+
+.navbar .download-btn {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.navbar .download-btn:hover {
+    background-color: #005a9e;
+}
+
