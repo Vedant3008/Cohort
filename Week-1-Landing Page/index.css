@@ -89,3 +89,32 @@ body{
     padding-top: 30px;
 }
 
+.main-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-btn .first-btn{
+    background-color: #0078d7;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 475px;
+    color: whitesmoke;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+.main-btn .second-btn{
+    background-color: gray;
+    font-size: medium;
+    color: #c3d0e5;
+    padding: 15px;
+    margin-right: 475px;
+    border:#aaaaaa;
+    border-radius: 4px;
+}
+
+
+
