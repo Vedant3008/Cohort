@@ -65,6 +65,3 @@ function sum(n){
     return total;
 }
 console.log(sum(5));
-
-
-
