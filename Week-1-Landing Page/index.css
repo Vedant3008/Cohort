@@ -60,6 +60,19 @@ body{
     color:#c3d0e5;
 }
 
+.navbar .search-bar input{
+    padding-left: 20px;
+    position:relative;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.navbar .search-bar svg{
+    position: absolute;
+}
+
 .navbar .search-bar ::placeholder{
     color: #aaaaaa;
 }
@@ -107,7 +120,7 @@ body{
 }
 
 .main-btn .second-btn{
-    background-color: gray;
+    background-color: rgb(37, 41, 46);
     font-size: medium;
     color: #c3d0e5;
     padding: 15px;
