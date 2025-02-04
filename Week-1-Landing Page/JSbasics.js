@@ -29,5 +29,16 @@ function canVote(age){
 let answer = canVote(age);
 console.log(answer);
 
+//OR you can use if....else
+function canVote(age){
+    if(age>18){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+let ans=canVote(14);
+console.log(ans)
 
 
