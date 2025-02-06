@@ -41,4 +41,30 @@ function canVote(age){
 let ans=canVote(14);
 console.log(ans)
 
+//for loop
+let students = ["Vedant","Jay","Kirtan","Darsh"];
+
+for(let i = 0; i < 4; i++){
+    console.log(students[i]);
+}
+
+//while loop
+let value=5;
+let j=0;
+while(j<value){
+    console.log(j);
+    j++;
+}
+
+//Assignment
+function sum(n){
+    let total = 0;
+    for (let i=1; i<=n; i++){
+        total = total + i;
+    }
+    return total;
+}
+console.log(sum(5));
+
+
 
