@@ -83,5 +83,14 @@ let users = {
     age: 16,
     gender: "Male"
 }
-
 greet(users);
+
+//Array Assignment 
+const lst=[1,2,34,5,6,4,31,456,6765,432];
+
+function values(n){
+    return n%2===0;
+}
+
+const evenNumbers = lst.filter(values);
+console.log(evenNumbers);
