@@ -65,3 +65,17 @@ function sum(n){
     return total;
 }
 console.log(sum(5));
+
+
+//Assignment 
+function greet(user){
+    console.log("Hi Mr " + user.name+ " your age is "+ user.age + " and gender is " + user.gender);
+}
+
+let users = {
+    name: "Vedant",
+    age: 22,
+    gender: "Male"
+}
+
+greet(users);
