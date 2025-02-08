@@ -68,13 +68,19 @@ console.log(sum(5));
 
 
 //Assignment 
-function greet(user){
-    console.log("Hi Mr " + user.name+ " your age is "+ user.age + " and gender is " + user.gender);
+function greet(users){
+    console.log("Hi Mr " + users.name+ " your age is "+ users.age + " and gender is " + users.gender);
+    if (users.age>18){
+        console.log("You can Vote");
+    }
+    else{
+        console.log("You can not Vote")
+    }
 }
 
 let users = {
     name: "Vedant",
-    age: 22,
+    age: 16,
     gender: "Male"
 }
 
