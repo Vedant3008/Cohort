@@ -85,7 +85,21 @@ let users = {
 }
 greet(users);
 
-//Array Assignment 
+//Array Assignment without filter
+const arr=[23,45,67,45,34,232,56,432,2];
+const result=[];
+function checkEven(arr){
+    for (let i=0; i<arr.length; i++){
+        if(arr[i]%2===0){
+            result.push(arr[i]);
+        }
+    }
+    return result;
+}
+console.log(checkEven(arr));
+
+
+//Array Assignment with filter
 const lst=[1,2,34,5,6,4,31,456,6765,432];
 
 function values(n){
