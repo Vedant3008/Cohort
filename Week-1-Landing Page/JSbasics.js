@@ -108,3 +108,30 @@ function values(n){
 
 const evenNumbers = lst.filter(values);
 console.log(evenNumbers);
+
+
+// Assignment: Create a function that takes an array of objects as input,
+// and return the users whose age>18 and are male
+
+function vote(users) {
+    return users.filter(person => person.age > 18 && person.gender === "male");
+}
+
+const person = [
+    {
+        name: "Vedant",
+        age: 21,
+        gender: "male"
+    }, {
+        name: "Sonam",
+        age: 21,
+        gender: "female"
+    }, {
+        name: "Rahul",
+        age: 11,
+        gender: "male"
+    }
+];
+
+const eligibleUsers = vote(person);
+console.log(eligibleUsers);
