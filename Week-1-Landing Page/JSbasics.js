@@ -112,7 +112,34 @@ console.log(evenNumbers);
 
 // Assignment: Create a function that takes an array of objects as input,
 // and return the users whose age>18 and are male
+function solve(arr){
+    let arr2 = [];
+    for (i=0; i<arr.length; i++){
+        if (arr[i].age>18 && arr[i].gender==="male"){
+            arr2.push(arr[i]);
+        }
+    }
+    return arr2;
+}
+const voters = [
+    {
+        name: "Vedant",
+        age: 21,
+        gender: "male"
+    }, {
+        name: "Sonam",
+        age: 21,
+        gender: "female"
+    }, {
+        name: "Rahul",
+        age: 11,
+        gender: "male"
+    }
+];
+const eligibleVoters = solve(voters);
+console.log(eligibleVoters);
 
+//Using filter
 function vote(users) {
     return users.filter(person => person.age > 18 && person.gender === "male");
 }
