@@ -117,6 +117,7 @@ body{
     padding: 15px;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .main-btn .second-btn{
@@ -127,6 +128,7 @@ body{
     margin-right: 460px;
     border:#aaaaaa;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .main-img img{
