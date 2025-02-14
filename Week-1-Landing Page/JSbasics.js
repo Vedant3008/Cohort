@@ -137,7 +137,7 @@ const voters = [
     }
 ];
 const eligibleVoters = solve(voters);
-console.log(eligibleVoters);
+console.log(eligibleVoters);       
 
 //Using filter
 function vote(users) {
