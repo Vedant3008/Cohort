@@ -1,4 +1,4 @@
-const fs = require('fs');
+let fs = require('fs');
 
 const data1 = fs.readFileSync('/Users/vedantshah/Desktop/Cohort/Week-2-Async JS/a.txt', 'utf-8');
 console.log(data1);
