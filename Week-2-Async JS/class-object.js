@@ -16,13 +16,17 @@ class Rectangle {
     
  }
  
- const rect = new Rectangle(2, 4,"Red")
- const area = rect.area();
- const color = rect.paint();
- console.log(area);
+const rect = new Rectangle(2, 4,"Red")
+const area = rect.area();
+const color = rect.paint();
+console.log(area);
 
-//
+//Date
 
+const trump = new Date();
+console.log(trump.getFullYear());
+
+//Map
 const map = new Map();
 map.set('name','Vedant');
 map.set('age','21');
