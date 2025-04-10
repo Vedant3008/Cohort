@@ -7,10 +7,10 @@ app.get('/',function(req,res){
     res.send('Hello, Add your to-do');
 })
 
-app.post('/add',function(req,res){
-    res.push({
-        id:
-        title
+app.post('/',function(req,res){
+    todo.push({
+        id:1,
+        title:"Learn HTTP"
     })
 })
 
